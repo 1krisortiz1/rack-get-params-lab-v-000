@@ -27,7 +27,7 @@ class Application
         if @@items.include?(new_item)
             @@cart << new_item
         else
-            reps.write "We don't have that item"
+            resp.write "We don't have that item"
         end
         resp.write "added #{new_item}"
     else
