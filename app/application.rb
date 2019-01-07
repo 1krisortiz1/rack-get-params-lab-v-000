@@ -31,6 +31,7 @@ class Application
         end
         resp.write "added #{new_item}"
     end
+    end
 
     else
         resp.write "Path Not Found"
